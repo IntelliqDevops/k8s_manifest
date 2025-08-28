@@ -2,7 +2,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: test-ns
   name: mysql-deployment
   labels:
     type: dbdd
